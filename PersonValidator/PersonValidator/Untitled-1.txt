@@ -1,0 +1,17 @@
+var Lista = new List <Person>();
+
+            var persona = new Person();
+            persona.Id = 3;
+
+            var persona2 = new Person();
+            persona.Id = 2;
+            var persona3 = new Person();
+            persona.Id = 3;
+
+            Lista.Add(persona);
+            Lista.Add(persona2);
+            
+            var perVal = new Personax();
+            perVal.People = Lista;
+
+            perVal.Add(persona3);
